@@ -1,0 +1,38 @@
+header section{
+margin-top: 51px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+.btn-box  button{
+margin-left: 25px;
+padding:10px 25px ;
+border-radius: 133px;
+border: none;
+background-color: #3FA72F;
+color: white;
+font-family: Poppins;
+font-weight: 600;
+font-size: 14px;
+}
+ul .uy{
+color: #FF8A00;
+}
+.btn-box  button:hover{
+background-color: #9a9999;
+color: #71fd06;
+transition: 0.3s;
+}
+.btn-box i:hover{
+color: red;
+}
+}
+@media (max-width:980px) {
+    .m1{
+    display: none;
+    }
+}
+@media (max-width:565px) {
+    .m2, ul .uy{
+    display: none;
+    }
+}

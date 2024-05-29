@@ -1,0 +1,87 @@
+.footer{
+display: flex;
+margin-top: 238px;
+background-color: #311F09;
+padding-top: 149px;
+.footer-box{
+margin-left: 64px;
+}
+.m3m3m3{
+display: flex;
+}
+.bbb-btn{
+padding: 5px 25px;
+border: none;
+background-color: #FF8A00;
+border-radius: 50%;
+}
+.d-harf{
+color: white;
+font-family: Poppins;
+border-radius: 50%;
+font-size: 25px;
+font-weight: 600;
+}
+.delize{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 18px;
+    color: #FFFFFF;
+    padding-top: 18px;
+}
+.delize mark{
+    color: #FF8A00;
+    background: fixed;
+    font-size: 14px;
+    }
+    .vive{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: #E3E2E0;
+    padding-top: 45px;
+    padding-bottom: 39px;
+    }
+    .img-3ta{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+    }
+    .page-text{
+    margin-left: 66px;
+    }
+    .home-text{
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 25px;
+        color: #FF8A00;
+    }
+    .menu-text{
+        padding-top: 20px;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        color: #E3E2E0;
+    }
+    .pagee-text{
+        margin-left: 70px;
+        }
+        .pageee-text{
+            margin-left: 70px;
+            }
+            .c-text{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        color: #E3E2E0;
+        padding-top: 93px;
+        margin-bottom: 74px;
+        text-align: center;
+            }
+}
+@media (max-width:1367px) {
+.footer{
+display: block;
+}
+}
